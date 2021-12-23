@@ -6,7 +6,7 @@ const theme = {
   gradient: 'linear-gradient(180deg, #476FAC 0%, #EE7BBD 100%);',
   secondGradient: 'linear-gradient(180deg, #476FAC 0%, #476FAC 50%, #EE7BBD 100%);',
   thirdGradient: 'linear-gradient(180deg, #598CD9 0%, #476FAC 100%);',
-
+  error: '#FF2E2E',
   grey: '#5A5A5A',
   greysecond: '#E5E5E5',
   white: '#FFFFFF',

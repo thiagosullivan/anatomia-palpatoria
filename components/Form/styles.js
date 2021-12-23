@@ -1,6 +1,6 @@
 import styled from "styled-components";
 
-export const FormContainer = styled.form`
+export const FormContainer = styled.section`
   padding: 8.70rem 0;
   background-color: ${({theme}) => theme.first};
 

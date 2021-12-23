@@ -3,7 +3,7 @@ import { ThemeProvider } from 'styled-components';
 
 import GlobalStyles from '../styles/globals';
 import theme from '../styles/theme';
-// import { Toaster } from 'react-hot-toast';
+import { Toaster } from 'react-hot-toast';
 
 function MyApp({ Component, pageProps }) {
   return (
@@ -15,7 +15,7 @@ function MyApp({ Component, pageProps }) {
         height={3}
         showOnShallow
       /> */}
-      {/* <Toaster position="bottom-right" /> */}
+      <Toaster position="bottom-right" />
       <Component {...pageProps} />
       <GlobalStyles />
     </ThemeProvider>

@@ -23,8 +23,7 @@ function AccordionQuestions() {
       <AccordionContainer>
         {Data.map((item, index) => {
           return (
-            <>
-              <div onClick={() => toggle(index)} key={index} className={'question_cont ' + (clicked === index ? 'awnserActive' : '')}>
+              <div key={index } onClick={() => toggle(index)} key={index} className={'question_cont ' + (clicked === index ? 'awnserActive' : '')}>
                 <h4><AiFillCaretRight /> {item.question}</h4> 
                 {clicked === index ? (
                   <div className='Dropdown'>
@@ -32,8 +31,6 @@ function AccordionQuestions() {
                   </div>
                 ) : null}
               </div>
-              
-            </>
           )
         })}
       </AccordionContainer>
