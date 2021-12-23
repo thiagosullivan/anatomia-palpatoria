@@ -2,6 +2,7 @@ import Head from 'next/head'
 import About from '../components/About'
 import Buy from '../components/Buy'
 import Footer from '../components/Footer'
+import Form from '../components/Form'
 import Hero from '../components/HeroContainer'
 import Members from '../components/Members'
 import Modules from '../components/Modules'
@@ -26,6 +27,7 @@ export default function Home() {
         <Opinions />
         <Buy />
         <Questions />
+        <Form />
       </main>
 
       <Footer />

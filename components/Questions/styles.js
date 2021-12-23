@@ -3,11 +3,12 @@ import styled from "styled-components";
 export const QuestionsContainer = styled.section`
 
   background-color: ${({theme}) => theme.first};
+
   .questions_cont {
     max-width: 1300px;
     width: 100%;
     margin: 0 auto;
-    padding: 4.8rem 0;
+    padding: 4.8rem 0;    
 
     h2 {
       text-align: center;
@@ -16,5 +17,64 @@ export const QuestionsContainer = styled.section`
       font-weight: 700;
       margin-bottom: 7.5rem;
     }
+    }
+  }
+`;
+
+export const AccordionSection = styled.div`
+
+`;
+
+export const AccordionContainer = styled.div`
+
+  transition: all 300ms ease-in-out;
+
+  .awnserActive {
+    transition: all 300ms ease-in-out;
+  }
+  
+  .awnserActive ${Dropdown} p {
+    visibility: visible !important;
+    color: ${({theme}) => theme.white} !important;
+    opacity: 1 !important;
+    height: auto;
+    transition: all 300ms ease-in-out;
+  }
+
+  .awnserActive ${Dropdown} svg {
+    transform: rotate(90deg);
+    transition: all 100ms ease-in-out;
+  }
+
+  .question_cont {
+    padding: 1.8rem 0;
+    border-bottom: 1px solid ${({theme}) => theme.white};
+  }
+
+  h4 {
+    color: ${({theme}) => theme.second};
+    margin-bottom: 0.75rem;
+
+    svg {
+      transform: rotate(0deg);
+      transition: all 100ms ease-in-out;
+    }
+  }
+`;
+
+export const Dropdown = styled.div`
+  
+  p {
+    color: ${({theme}) => theme.white};
+    margin-left: 1.8rem;
+    text-align: justify;
+    line-height: 25px;
+    visibility: hidden;
+    opacity: 0;
+    height: 0;
+  }
+
+  svg {
+
   }
 `;
