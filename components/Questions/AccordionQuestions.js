@@ -27,9 +27,9 @@ function AccordionQuestions() {
               <div onClick={() => toggle(index)} key={index} className={'question_cont ' + (clicked === index ? 'awnserActive' : '')}>
                 <h4><AiFillCaretRight /> {item.question}</h4> 
                 {clicked === index ? (
-                  <Dropdown>
+                  <div className='Dropdown'>
                     <p>{item.answer}</p>
-                  </Dropdown>
+                  </div>
                 ) : null}
               </div>
               

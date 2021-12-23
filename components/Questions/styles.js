@@ -33,7 +33,7 @@ export const AccordionContainer = styled.div`
     transition: all 300ms ease-in-out;
   }
   
-  .awnserActive ${Dropdown} p {
+  .awnserActive .Dropdown p {
     visibility: visible !important;
     color: ${({theme}) => theme.white} !important;
     opacity: 1 !important;
@@ -41,7 +41,7 @@ export const AccordionContainer = styled.div`
     transition: all 300ms ease-in-out;
   }
 
-  .awnserActive ${Dropdown} svg {
+  .awnserActive .Dropdown svg {
     transform: rotate(90deg);
     transition: all 100ms ease-in-out;
   }
@@ -49,6 +49,17 @@ export const AccordionContainer = styled.div`
   .question_cont {
     padding: 1.8rem 0;
     border-bottom: 1px solid ${({theme}) => theme.white};
+
+      .Dropdown {
+        p {
+          color: ${({theme}) => theme.white};
+          margin-left: 1.8rem;
+          text-align: justify;
+          line-height: 25px;
+          visibility: hidden;
+          opacity: 0;
+        }
+      }
   }
 
   h4 {
@@ -62,19 +73,19 @@ export const AccordionContainer = styled.div`
   }
 `;
 
-export const Dropdown = styled.div`
+// export const Dropdown = styled.div`
   
-  p {
-    color: ${({theme}) => theme.white};
-    margin-left: 1.8rem;
-    text-align: justify;
-    line-height: 25px;
-    visibility: hidden;
-    opacity: 0;
-    height: 0;
-  }
+//   p {
+//     color: ${({theme}) => theme.white};
+//     margin-left: 1.8rem;
+//     text-align: justify;
+//     line-height: 25px;
+//     visibility: hidden;
+//     opacity: 0;
+//     height: 0;
+//   }
 
-  svg {
+//   svg {
 
-  }
-`;
+//   }
+// `;
