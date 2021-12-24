@@ -52,6 +52,36 @@ export const MemberCont = styled.section`
     align-items: center;
     justify-content: space-between;
     margin: 0 auto;
+    padding: 0 1rem;
+
+    @media (max-width: 980px){
+      flex-direction: column;
+
+      .member_img {
+        order: 2;
+      }
+
+      .member_txt {
+        max-width: unset !important;
+
+        h3 {
+          text-align: center;
+        }
+
+        p {
+          line-height: 25px !important;
+          font-size: 1rem !important;
+        }
+
+        ul {
+          font-size: 1rem !important;
+          
+          li {
+            line-height: 25px;
+          }
+        }
+      }
+    }
 
     .member_img {
 
@@ -71,6 +101,10 @@ export const MemberCont = styled.section`
         font-size: 4rem;
         font-weight: 700;
         margin-bottom: 2rem;
+
+        @media (max-width: 550px){
+          font-size: 2rem;
+        }
       }
 
       ul {

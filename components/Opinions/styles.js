@@ -8,12 +8,23 @@ export const OpnionsContainer = styled.section`
     max-width: 1300px;
     width: 100%;
     margin: 0 auto;
+    padding: 0 1rem;
+
+    @media (max-width: 980px){
+      .vantagens_cards_cont {
+        flex-direction: column;
+      }
+    }
 
     h2 {
       color: ${({theme}) => theme.white};
       font-size: 4rem;
       margin-bottom: 5.6rem;
       text-align: center;
+
+      @media (max-width: 550px){
+        font-size: 2rem;
+      }
 
     }
 
@@ -43,6 +54,12 @@ export const VantagensCard = styled.section`
   border-radius: 10px;
   box-shadow: 0 4px 4px rgba(0,0,0,.25);
 
+  @media (max-width: 980px){
+    max-width: unset;
+    height: auto;
+    margin-bottom: 2rem;
+  }
+
   .vantagem_card_icon {
     margin-bottom: 1rem;
   }
@@ -63,6 +80,31 @@ export const OpinionCard = styled.section`
   padding: 3.3rem;
   display: flex;
   justify-content: center;
+  align-items: center;
+
+  @media (max-width: 700px){
+    flex-direction: column;
+
+    .opinion_img {
+      margin-right: 0;
+      margin-bottom: 2rem;
+    }
+
+    .opinion_card_txt {
+
+      h4 {
+        text-align: center;
+      }
+
+      p {
+        margin-bottom: 3rem !important;
+      }
+
+      .opinion_card_txt_bottom {
+        align-items: center;
+      }
+    }
+  }
 
   &:last-child {
     margin-bottom: 0;
@@ -81,13 +123,17 @@ export const OpinionCard = styled.section`
       margin-bottom: 1.3rem;
       font-size: 3rem;
       font-weight: 700;
+
+      @media (max-width: 550px){
+        font-size: 2rem;
+      }
     }
 
     p {
       color: ${({theme}) => theme.white};
       margin-bottom: 2rem;
       text-align: justify;
-      font-size: 400;
+      font-weight: 400;
       line-height: 20px;
     }
 

@@ -4,25 +4,52 @@ export const FormContainer = styled.section`
   padding: 8.70rem 0;
   background-color: ${({theme}) => theme.first};
 
+  @media (max-width: 980px){
+    padding: 3rem 0 ;
+  }
+
   .form_cont {
     max-width: 1300px;
     width: 100%;
     margin: 0 auto;
+    padding: 0 1rem;
 
     display: flex;
     justify-content: center;
     align-items: center;
 
+    @media (max-width: 980px){
+      flex-direction: column;
+    }
+
     .form_txt {
       max-width: 420px;
       width: 100%;
-      margin-right: 5rem;      
+      margin-right: 2.5rem;
+
+      @media (max-width: 980px){
+        max-width: unset;
+        margin-right: 0;
+        margin-bottom: 2rem;
+
+        h2 {
+          text-align: center;
+        }
+
+        p {
+          text-align: center;
+        }
+      }
 
       h2 {
         font-size: 3rem;
         font-weight: 700;
         color: ${({theme}) => theme.second};
         margin-bottom: 2rem;
+
+        @media (max-width: 550px){
+          font-size: 2rem;
+        }
       }
 
       p {
@@ -42,6 +69,10 @@ export const FormContact = styled.form`
   'email phone'
   'message message'
   'buttonform buttonform';
+
+  @media (max-width: 550px){
+    max-width: unset;
+  }
 
   input,
   textarea {

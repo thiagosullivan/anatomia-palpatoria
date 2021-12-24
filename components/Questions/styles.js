@@ -8,7 +8,7 @@ export const QuestionsContainer = styled.section`
     max-width: 1300px;
     width: 100%;
     margin: 0 auto;
-    padding: 4.8rem 0;    
+    padding: 4.8rem 1rem;
 
     h2 {
       text-align: center;
@@ -16,8 +16,13 @@ export const QuestionsContainer = styled.section`
       font-size: 4rem;
       font-weight: 700;
       margin-bottom: 7.5rem;
+      
+      @media (max-width: 550px){
+        font-size: 2rem;
+        margin-bottom: 3rem;
+      }
     }
-    }
+    
   }
 `;
 

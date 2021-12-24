@@ -7,6 +7,15 @@ export const HeroContainer = styled.section`
   justify-content: space-between;
   margin: 4rem auto;
   max-width: 1300px;
+  padding: 0 1rem;
+
+  @media (max-width: 980px){
+    flex-direction: column;
+
+    .img_hero {
+      margin-bottom: 2rem;
+    }
+  }
 
   .txt_hero {
     
@@ -18,6 +27,10 @@ export const HeroContainer = styled.section`
       color: ${({theme}) => theme.first};
       font-weight: 800;
       margin-bottom: 1.6rem;
+
+      @media (max-width: 980px) {
+        text-align: center;
+      }
     }
 
     p {
@@ -25,6 +38,11 @@ export const HeroContainer = styled.section`
       font-size: 1.8rem;
       font-weight: 400;
       margin-bottom: 1.6rem;
+
+      @media (max-width: 980px) {
+        text-align: justify;
+        margin: 2rem 0;
+      }
       
     }
 

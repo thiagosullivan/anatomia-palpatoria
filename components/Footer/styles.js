@@ -14,6 +14,28 @@ export const FooterTop = styled.div`
   background: ${({ theme }) => theme.third};
   padding: 2.8rem 0;
   text-align: center;
+
+  @media (max-width: 980px){
+    display: flex;
+    flex-direction: column;
+
+    a {
+      margin-bottom: .5rem;
+      border-bottom: 2px solid ${({ theme }) => theme.second};
+      padding: .5rem;
+      width: fit-content;
+      text-align: center;
+      margin: 0 auto;
+
+      &:after {
+        display: none;
+      }
+
+      &:last-child {
+        border-bottom: none;
+      }
+    }
+  }
   a {
     &:after {
       content: '';

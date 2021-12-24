@@ -4,6 +4,7 @@ export const BuySection = styled.section`
   margin: 8.7rem auto;
   max-width: 1300px;
   width: 100%;
+  padding: 0 1rem;
 
   h2 {
     font-size: 4rem;
@@ -11,6 +12,10 @@ export const BuySection = styled.section`
     color: ${({theme}) => theme.first};
     text-align: center;
     margin-bottom: 4rem;
+
+    @media (max-width: 550px){
+      font-size: 2rem;
+    }
 
     span {
       text-transform: uppercase;
@@ -29,12 +34,17 @@ export const BuySection = styled.section`
 
   .buycard_cont {
     margin: 4.3rem auto 0;
+
     p {
       font-size: 3.1rem;
       font-weight: 700;
       color: ${({theme}) => theme.first};
       text-align: center;
       margin-bottom: 2.5rem;
+      
+      @media (max-width: 550px){
+        font-size: 2rem;
+      }
     }
   }
 `;

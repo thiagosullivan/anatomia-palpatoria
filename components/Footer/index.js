@@ -9,7 +9,7 @@ function Footer(){
         <a>Aviso legal</a>
       </FooterTop>
       <FooterBottom>
-        <p>© 2022 <strong>Anatomia Palpatória Avançada</strong>- Desenvolvido por <strong>Eagle</strong>.</p>
+        <p>© 2022 <strong>Anatomia Palpatória Avançada</strong> - Desenvolvido por <strong>Eagle</strong>.</p>
       </FooterBottom>
     </FooterContainer>
   )

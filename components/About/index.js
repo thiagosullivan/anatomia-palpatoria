@@ -24,7 +24,7 @@ function About() {
           <p>Dividimos em esqueleto Axial, e esqueleto apendicular superior e inferior com suas cinturas além das estruturas viscerais, tudo isso em imagens de altíssima resolução com DUAS INCIDENCIAS de câmeras para melhor visualização e compreensão e demonstração em imagens 3D das estruturas a serem localizadas.</p>
         </div>
         <div className='about_img'>
-          <Image src={AnatPerson} width={630} />
+          <Image src={AnatPerson} width={620} height={620} />
         </div>
       </AboutContent>
     </AboutContainer>

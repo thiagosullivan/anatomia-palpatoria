@@ -4,6 +4,7 @@ export const ModulesContainer = styled.section`
   margin: 4.6rem auto;
   max-width: 1300px;
   width: 100%;
+  padding: 0 1rem;
   
   h2 {
     color: ${({theme}) => theme.second};
@@ -11,11 +12,19 @@ export const ModulesContainer = styled.section`
     font-size: 3rem;
     font-weight: 700;
     margin-bottom: 4.6rem;
+
+    @media (max-width: 550px){
+      font-size: 2rem;
+    }
   }
 
   #modulos {
     display: flex;
     justify-content: space-around;
+
+    @media (max-width: 980px){
+      flex-direction: column;
+    }
   }
 `;
 
@@ -30,11 +39,29 @@ export const CardMod = styled.div`
   padding: 4rem 15px 0;
   box-shadow: 0 4px 4px rgba(0,0,0,.25);
 
+  @media (max-width: 980px){
+    max-width: unset;
+    height: auto;
+    margin-bottom: 2rem;
+    padding: 2rem;
+
+    ul {
+
+      li {
+        line-height: 30px !important;
+      }
+    }
+  }
+
   h4 {
     color: ${({theme}) => theme.second};
     font-size: 2.25rem;
     font-weight: 700;
     margin-bottom: 1.5rem;
+
+    @media (max-width: 550px){
+      font-size: 2rem;
+    }
   }
 
   p {
