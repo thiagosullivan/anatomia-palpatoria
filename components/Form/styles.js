@@ -44,7 +44,7 @@ export const FormContainer = styled.section`
       h2 {
         font-size: 3rem;
         font-weight: 700;
-        color: ${({theme}) => theme.second};
+        color: ${({theme}) => theme.fourth};
         margin-bottom: 2rem;
 
         @media (max-width: 550px){
@@ -63,6 +63,7 @@ export const FormContainer = styled.section`
 export const FormContact = styled.form`
   max-width: 310px;
   width: 100%;
+  position: relative;
   display: grid;
   grid-template-areas:
   'nameform nameform'
@@ -78,7 +79,7 @@ export const FormContact = styled.form`
   textarea {
     margin-bottom: 0.62rem;
     padding-left: 0.92rem;
-    border: 2px solid ${({theme}) => theme.second};
+    border: 2px solid ${({theme}) => theme.fourth};
     border-radius: 5px;
     background-color: transparent;
     outline: none;
@@ -87,7 +88,7 @@ export const FormContact = styled.form`
     font-size: 1rem;
 
     &::placeholder {
-      color: ${({theme}) => theme.second};
+      color: ${({theme}) => theme.fourth};
     }
 
     &:focus {
@@ -119,17 +120,17 @@ export const FormContact = styled.form`
   #buttonform {
     grid-area: buttonform;
     resize: none;
-    background-color: ${({theme}) => theme.second};
-    border: 2px solid ${({theme}) => theme.second};
-    color: ${({theme}) => theme.white};
+    background-color: ${({theme}) => theme.fourth};
+    border: 2px solid ${({theme}) => theme.fourth};
+    color: ${({theme}) => theme.first};
     border-radius: 5px;
     font-size: 1.5rem;
     font-weight: 700;
     transition: all 150ms ease-in;
 
     &:hover {
-      background-color: ${({theme}) => theme.white};
-      color: ${({theme}) => theme.second};
+      background-color: ${({theme}) => theme.first};
+      color: ${({theme}) => theme.fourth};
     }
   }
 `;

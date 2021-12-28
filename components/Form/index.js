@@ -2,6 +2,7 @@ import React, { useState } from 'react'
 import toast from 'react-hot-toast';
 import { sendContactMail } from '../../services/sendMail';
 import theme from '../../styles/theme';
+import LoadingSpinner from '../LoadingSpinner';
 import { FormContact, FormContainer } from './styles';
 
 function Form() {
@@ -9,6 +10,8 @@ function Form() {
   const [ email, setEmail ] = useState('');
   const [ phone, setPhone ] = useState('');
   const [ message, setMessage ] = useState('');
+
+  const [ loading, setLoading ] = useState(false);
 
   async function handleSubmit(event){
     event.preventDefault();
@@ -25,7 +28,8 @@ function Form() {
     }
 
     try {
-      await sendContactMail(nome, email, message);
+      setLoading(true)
+      await sendContactMail(nome, email, phone, message);
       setNome('');
       setEmail('');
       setPhone('');
@@ -43,6 +47,8 @@ function Form() {
           color: theme.white
         }
       });
+    } finally {
+      setLoading(false)
     }
 
     console.log(nome, email, phone, message)
@@ -58,7 +64,9 @@ function Form() {
           </h2>
           <p>Tem alguma dúvida? Precisando de suporte ou mais informações? Entre em contato!<br/> Ficaremos felizes em ajudar 😁</p>
         </div>
+        
         <FormContact onSubmit={handleSubmit}>
+          { loading ? <LoadingSpinner /> : ''}
           <input
             type='text'
             placeholder='Seu Nome'
@@ -90,6 +98,7 @@ function Form() {
           <button
             type='submit'
             id='buttonform'
+            disabled={loading}
           >
             Enviar
           </button>

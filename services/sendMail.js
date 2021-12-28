@@ -1,8 +1,8 @@
 import axios from 'axios';
 
-export const sendContactMail = async (nome, senderMail, content) => {
+export const sendContactMail = async (nome, senderMail, phone, content,  ) => {
   const data = {
-    nome, senderMail, content
+    nome, senderMail, phone, content
   };
 
   try {

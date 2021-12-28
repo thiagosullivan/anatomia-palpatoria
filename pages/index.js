@@ -8,6 +8,7 @@ import Members from '../components/Members'
 import Modules from '../components/Modules'
 import Opinions from '../components/Opinions'
 import Questions from '../components/Questions'
+import ScrollToTop from '../components/ScrollToTop'
 import { Container } from '../styles/Home'
 
 export default function Home() {
@@ -29,7 +30,7 @@ export default function Home() {
         <Questions />
         <Form />
       </main>
-
+      <ScrollToTop />
       <Footer />
     </Container>
   )

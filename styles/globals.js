@@ -25,6 +25,7 @@ export default createGlobalStyle`
   body {
     background: ${props => props.theme.background};
     font-family: 'Josefin Sans', sans-serif;
+    position: relative;
   }
   img {
     width: 100%;
