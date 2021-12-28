@@ -47,10 +47,20 @@ export const HeroContainer = styled.section`
     }
 
     .txt_hero_bottom {
-
       display: flex;
       align-items: center;
       justify-content: center;
+
+      @media (max-width: 520px){
+        flex-direction: column;
+
+        a {
+          &:first-child {
+            margin-right: 0 !important;
+            margin-bottom: 2rem;
+          }
+        }
+      }
 
       a {
         &:first-child {

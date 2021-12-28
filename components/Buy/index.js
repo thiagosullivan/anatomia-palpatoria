@@ -9,15 +9,15 @@ function Buy() {
     <BuySection>
       <h2>
         Até onde
-        <span>VOCÊ</span>
+        <span> VOCÊ </span>
         irá chegar?<br/>
-        <span>VOCÊ</span>
+        <span> VOCÊ </span>
         decide!
       </h2>
       <p>Basta clicar no botão e adquirir o curso para ter acesso <span>agora</span> e começar imediatamente. O preço atual é por um tempo limitado, aproveite agora para se juntar à nós.</p>
       <p>Eu estou te esperando para compartilhar com você um <span>curso extraordinário</span>. Adquira agora e faça a sua CARREIRA DECOLAR. Saia de onde está e alcance voos cada vez mais altos.</p>
 
-      <div className='buycard_cont'>
+      <div className='buycard_cont' id="buy">
         <p>Adquira agora!</p>
 
         <BuyCard>

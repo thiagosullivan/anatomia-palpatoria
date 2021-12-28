@@ -14,7 +14,7 @@ function Hero() {
         <h1>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</h1>
         <p>Morbi ac nulla et lectus hendrerit ultricies. Donec non placerat lorem, et.</p>
         <div className='txt_hero_bottom'>
-          <a href="#">Adquira nosso curso</a>
+          <a href="#buy">Adquira nosso curso</a>
           <a href="#modulos">Lista de conteúdo das aulas</a>
         </div>
       </div>

@@ -87,7 +87,7 @@ export const AboutContent = styled.section`
     h2 {
       font-size: 3rem;
       font-weight: 700;
-      color: ${({theme}) => theme.second};
+      color: ${({theme}) => theme.fourth};
       margin-bottom: 1.2rem;
 
       @media (max-width: 980px){

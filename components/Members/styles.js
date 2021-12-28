@@ -11,7 +11,7 @@ export const MemberCont = styled.section`
   
   &:last-child {
     margin-top: 4rem;
-    background-color: ${({theme}) => theme.third};
+    background-color: ${({theme}) => theme.first};
 
     .member_div {
       justify-content: space-between;
@@ -28,14 +28,14 @@ export const MemberCont = styled.section`
       .member_txt {
 
         h3 {
-          color: ${({theme}) => theme.second};
+          color: ${({theme}) => theme.fourth};
         }
 
         p {
           color: ${({theme}) => theme.white};
           text-align: justify;
           line-height: 20px;
-          font-size: 0.8rem;
+          font-size: 1rem;
         }
 
         ul {
@@ -110,7 +110,7 @@ export const MemberCont = styled.section`
       ul {
         color: ${({theme}) => theme.white};
         line-height: 20px;
-        font-size: 0.8rem;
+        font-size: 1rem;
       }
     }
   }

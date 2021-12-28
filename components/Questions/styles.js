@@ -68,7 +68,7 @@ export const AccordionContainer = styled.div`
   }
 
   h4 {
-    color: ${({theme}) => theme.second};
+    color: ${({theme}) => theme.fourth};
     margin-bottom: 0.75rem;
 
     svg {
