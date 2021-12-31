@@ -56,7 +56,7 @@ export const MemberCont = styled.section`
     max-width: 1300px;
     width: 100%;
     display: flex;
-    align-items: center;
+    align-items: self-end;
     justify-content: space-between;
     margin: 0 auto;
     padding: 0 1rem;
@@ -67,9 +67,15 @@ export const MemberCont = styled.section`
       }
     }
 
+    @media (max-width: 1110px){
+      .member_txt {
+        max-width: 500px !important;
+      }
+    }
+
     @media (max-width: 980px){
       flex-direction: column;
-
+      align-items: center;
       .member_img {
         order: 2;
       }
@@ -99,7 +105,15 @@ export const MemberCont = styled.section`
     .member_img {
 
       margin-right: 2.6rem;
-      
+      width: 100%;
+
+      @media (max-width: 1110px){
+        width: 100%;
+      }
+
+      @media (max-width: 980px){
+        width: unset;
+      }
       /* > span {
         bottom: -50px;
       } */
@@ -107,7 +121,6 @@ export const MemberCont = styled.section`
     
     .member_txt {
       max-width: 715px;
-      width: 100%;
 
       h3 {
         color: ${({theme}) => theme.first};

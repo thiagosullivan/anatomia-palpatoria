@@ -71,6 +71,10 @@ export const FormContact = styled.form`
   'message message'
   'buttonform buttonform';
 
+  @media (max-width: 980px){
+    max-width: 600px;
+  }
+
   @media (max-width: 550px){
     max-width: unset;
     grid-template-areas:
