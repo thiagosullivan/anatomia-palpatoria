@@ -8,7 +8,7 @@ function Hero() {
   return (
     <HeroContainer>
       <div className='img_hero'>
-        <Image src={AnatPalpLogo} width={442} height={442}/>
+        <Image src={AnatPalpLogo} width={442} height={442} alt='Logo da Anatomia Palpatória'/>
       </div>
       <div className='txt_hero'>
         <h1>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</h1>

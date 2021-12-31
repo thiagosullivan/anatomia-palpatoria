@@ -10,8 +10,6 @@ function AccordionQuestions() {
 
   const toggle = index => {
     if(clicked === index){
-
-      // if clicked questionis already ActiveXObject, then close it
       return setClicked(null)
     }
 
@@ -23,7 +21,7 @@ function AccordionQuestions() {
       <AccordionContainer>
         {Data.map((item, index) => {
           return (
-              <div key={index } onClick={() => toggle(index)} key={index} className={'question_cont ' + (clicked === index ? 'awnserActive' : '')}>
+              <div onClick={() => toggle(index)} key={index} className={'question_cont ' + (clicked === index ? 'awnserActive' : '')}>
                 <h4><AiFillCaretRight /> {item.question}</h4> 
                 {clicked === index ? (
                   <div className='Dropdown'>

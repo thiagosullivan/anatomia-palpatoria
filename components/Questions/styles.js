@@ -58,11 +58,15 @@ export const AccordionContainer = styled.div`
       .Dropdown {
         p {
           color: ${({theme}) => theme.white};
-          margin-left: 1.8rem;
+          margin: 0 1.8rem;
           text-align: justify;
           line-height: 25px;
           visibility: hidden;
           opacity: 0;
+
+          @media (max-width: 660px){
+            margin: 0;
+          }
         }
       }
   }

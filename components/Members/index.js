@@ -10,7 +10,7 @@ function Members() {
       <MemberCont>
         <div className='member_div'>
           <div className='member_img'>
-            <Image src={EduardoRetondaro} />
+            <Image src={EduardoRetondaro} alt='Eduardo Retondaro'/>
           </div>
           <div className='member_txt'>
             <h3>Eduardo Retondaro</h3>
@@ -32,7 +32,7 @@ function Members() {
       <MemberCont>
         <div className='member_div'>
           <div className='member_img'>
-            <Image src={RodrigoRetondaro} />
+            <Image src={RodrigoRetondaro} alt='Rodrigo Retondaro' />
           </div>
           <div className='member_txt'>
             <h3>Rodrigo Retondaro Rabbottini</h3>

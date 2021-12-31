@@ -18,19 +18,19 @@ function Opinions() {
         <div className='vantagens_cards_cont'>
           <VantagensCard>
             <div className='vantagem_card_icon'>
-              <Image src={MedkitIcon} />
+              <Image src={MedkitIcon} alt='Vantagem 1' />
             </div>
             <p>Vivamus ultricies vulputate ante quis feugiat. Nunc imperdiet leo a quam accumsan bibendum. Ut sed condimentum mauris. Suspendisse lorem erat, sollicitudin at nibh et, condimentum rutrum magna. Ut feugiat, arcu sed dignissim condimentum, ex lorem sagittis quam, aliquet rhoncus risus dui a metus. Etiam convallis ipsum id luctus congue. Vestibulum id justo ut augue porttitor pellentesque. Curabitur mollis venenatis lorem, vel semper lorem. Phasellus id dapibus dui. Integer tincidunt interdum erat sed dignissim. Morbi scelerisque blandit odio, eget vehicula quam dictum et.</p>
           </VantagensCard>
           <VantagensCard>
             <div className='vantagem_card_icon'>
-              <Image src={HandIcon} />
+              <Image src={HandIcon} alt='Vantagem 2' />
             </div>
             <p>Ut consectetur massa nec nisi tincidunt mollis. Proin scelerisque auctor velit a bibendum. Quisque fermentum aliquam dolor, non tristique nibh porttitor ac. Proin est odio, varius eget justo vitae, efficitur auctor dolor. Etiam laoreet dictum nunc, id lacinia eros molestie a. Quisque non lorem libero. Suspendisse luctus sem eu egestas sollicitudin. Vivamus porttitor, eros auctor mattis aliquet, nisl massa tempus dui, quis rutrum nulla ex rhoncus purus.</p>
           </VantagensCard>
           <VantagensCard>
             <div className='vantagem_card_icon'>
-              <Image src={HeartIcon} />
+              <Image src={HeartIcon} alt='Vantagem 3' />
             </div>
             <p>Maecenas ut lectus eu sem ultrices porttitor nec sit amet justo. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vivamus porttitor eros a elit commodo facilisis. Morbi auctor scelerisque felis ac porttitor. Integer vitae magna quis enim tempor condimentum. Morbi tempus, risus a maximus ornare, diam tellus fringilla leo, ut varius ex nisi nec sapien. In et ullamcorper nunc.</p>
           </VantagensCard>
@@ -40,7 +40,7 @@ function Opinions() {
 
           <OpinionCard>
             <div className='opinion_img'>
-              <Image src={DepoOne} width={200} height={200} />
+              <Image src={DepoOne} width={200} height={200} alt='Depoimento 1' />
             </div>
             <div className='opinion_card_txt'>
               <h4>Charlize THeron</h4>
@@ -53,7 +53,7 @@ function Opinions() {
           </OpinionCard>
           <OpinionCard>
             <div className='opinion_img'>
-              <Image src={DepoTwo} width={200} height={200} />
+              <Image src={DepoTwo} width={200} height={200} alt='Depoimento 2' />
             </div>
             <div className='opinion_card_txt'>
               <h4>Terry Crews</h4>
@@ -66,7 +66,7 @@ function Opinions() {
           </OpinionCard>
           <OpinionCard>
             <div className='opinion_img'>
-              <Image src={DepoThree} width={200} height={200} />
+              <Image src={DepoThree} width={200} height={200} alt='Depoimento 3' />
             </div>
             <div className='opinion_card_txt'>
               <h4>Scarlett Johansson</h4>
