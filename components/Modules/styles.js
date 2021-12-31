@@ -18,12 +18,15 @@ export const ModulesContainer = styled.section`
     }
   }
 
-  #modulos {
+  .modulos {
     display: flex;
     justify-content: space-around;
 
     @media (max-width: 980px){
-      flex-direction: column;
+      flex-wrap: wrap;
+
+      .modulos {
+      }
     }
   }
 `;
@@ -37,10 +40,11 @@ export const CardMod = styled.div`
   flex-direction: column;
   align-items: center;
   padding: 4rem 15px 0;
+  margin: 0 5px;
   box-shadow: 0 4px 4px rgba(0,0,0,.25);
 
   @media (max-width: 980px){
-    max-width: unset;
+    flex-wrap: wrap;
     height: auto;
     margin-bottom: 2rem;
     padding: 2rem;

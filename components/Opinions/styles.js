@@ -4,6 +4,10 @@ export const OpnionsContainer = styled.section`
   background: ${({theme}) => theme.thirdGradient};
   padding: 9.3rem 0;
 
+  @media (max-width: 700px){
+    padding: 4rem 0;
+  }
+
   .opinions_cont {
     max-width: 1300px;
     width: 100%;
@@ -84,9 +88,10 @@ export const OpinionCard = styled.section`
 
   @media (max-width: 700px){
     flex-direction: column;
+    padding: 2rem;
 
     .opinion_img {
-      margin-right: 0;
+      margin-right: 0 !important;
       margin-bottom: 2rem;
     }
 

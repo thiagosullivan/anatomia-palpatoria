@@ -27,6 +27,8 @@ export const BuySection = styled.section`
     color: ${({theme}) => theme.grey};
     font-size: 1.1rem;
     margin-bottom: 1rem;
+    text-align: justify;
+
     span {
       text-transform: uppercase;
     }
@@ -63,7 +65,7 @@ export const BuyCard = styled.div`
   padding: 3.1rem;
   box-shadow: 0 4px 4px rgba(0,0,0,.25);
 
-  @media (max-width: 520px){
+  @media (max-width: 720px){
     max-width: 400px;
     padding: 1.5rem;
   }
@@ -75,7 +77,7 @@ export const BuyCard = styled.div`
     font-weight: 800;
     margin-bottom: 1.5rem;
 
-    @media (max-width: 520px){
+    @media (max-width: 720px){
       font-size: 1.5rem;
     }
   }
@@ -88,7 +90,7 @@ export const BuyCard = styled.div`
     font-weight: 700;
     margin-bottom: 1.5rem;
 
-    @media (max-width: 520px){
+    @media (max-width: 720px){
       font-size: 4rem;
     }
 
@@ -97,7 +99,7 @@ export const BuyCard = styled.div`
       font-size: 3rem;
       margin-right: 0.6rem;
 
-      @media (max-width: 520px){
+      @media (max-width: 720px){
         font-size: 1.5rem;
       
         &:last-child {
@@ -116,7 +118,7 @@ export const BuyCard = styled.div`
   .buycard_txt {
     margin-bottom: 3.43rem;
 
-    @media (max-width: 520px){
+    @media (max-width: 720px){
       margin-bottom: 1.8rem;
     }
 
@@ -131,7 +133,7 @@ export const BuyCard = styled.div`
         justify-content: center;
         color: ${({theme}) => theme.white};
 
-        @media (max-width: 520px){
+        @media (max-width: 720px){
           font-size: 0.9rem;
           padding-bottom: 0.6rem;
           margin-top: 0.6rem;
@@ -143,7 +145,7 @@ export const BuyCard = styled.div`
           color: ${({theme}) => theme.fourth};
           font-size: 1.8rem;
          
-          @media (max-width: 520px){
+          @media (max-width: 720px){
             font-size: 1rem;
           }
         }
@@ -168,7 +170,7 @@ export const BuyCard = styled.div`
     justify-content: center;
     box-shadow: 0 2px 7px rgba(0,0,0,.5);
 
-    @media (max-width: 520px){
+    @media (max-width: 720px){
       font-size: 1.2rem;
       width: 200px;
       height: 60px;

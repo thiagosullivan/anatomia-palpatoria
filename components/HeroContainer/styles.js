@@ -11,9 +11,17 @@ export const HeroContainer = styled.section`
 
   @media (max-width: 980px){
     flex-direction: column;
+    
 
     .img_hero {
       margin-bottom: 2rem;
+      width: 80%;
+      display: flex;
+      justify-content: center;
+
+      > span {
+        width: 80%;
+      }
     }
   }
 
@@ -31,6 +39,10 @@ export const HeroContainer = styled.section`
       @media (max-width: 980px) {
         text-align: center;
       }
+
+      @media (max-width: 520px){
+        font-size: 2rem !important;
+      }
     }
 
     p {
@@ -42,6 +54,10 @@ export const HeroContainer = styled.section`
       @media (max-width: 980px) {
         text-align: justify;
         margin: 2rem 0;
+      }
+
+      @media (max-width: 520px){
+        font-size: 1.2rem !important;
       }
       
     }

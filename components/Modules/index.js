@@ -3,10 +3,10 @@ import { CardMod, ModulesContainer } from './styles';
 
 function Modules() {
   return (
-    <ModulesContainer>
+    <ModulesContainer id="modulos">
       <h2>Módulos do Curso</h2>
 
-      <div id="modulos">
+      <div className="modulos">
         <CardMod>
           <h4>Módulo 1</h4>
           <p>Esqueleto Axial – Coluna e Pelve</p>

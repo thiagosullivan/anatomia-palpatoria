@@ -73,6 +73,16 @@ export const FormContact = styled.form`
 
   @media (max-width: 550px){
     max-width: unset;
+    grid-template-areas:
+    'nameform'
+    'email'
+    'phone'
+    'message'
+    'buttonform';
+
+    #email {
+      margin-right: unset !important;
+    }
   }
 
   input,
