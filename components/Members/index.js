@@ -1,7 +1,7 @@
 import Image from 'next/image';
 import React from 'react'
 import { MemberCont, MembersContainer } from './styles';
-import EduardoRetondaro from '../../assets/dr-rodolfo.png';
+import EduardoRetondaro from '../../assets/dr-eduardo.png';
 import RodrigoRetondaro from '../../assets/dr-rodrigo.png';
 
 function Members() {

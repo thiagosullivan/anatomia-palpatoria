@@ -9,6 +9,13 @@ export const MemberCont = styled.section`
   padding: 2rem 0;
   box-shadow: 0 4px 4px rgba(0,0,0,.25);
   
+  &:first-child {
+    .member_img {
+      > span {
+        bottom: -41px;
+      }
+    }
+  }
   &:last-child {
     margin-top: 4rem;
     background-color: ${({theme}) => theme.first};
@@ -21,7 +28,7 @@ export const MemberCont = styled.section`
         margin-left: 2.6rem;
 
         > span {
-          bottom: -55px;
+          bottom: -41px;
         }
       }
 
@@ -39,7 +46,7 @@ export const MemberCont = styled.section`
         }
 
         ul {
-          margin-top: 10px;
+          margin-top: 20px;
         }
       }
     }
@@ -53,6 +60,12 @@ export const MemberCont = styled.section`
     justify-content: space-between;
     margin: 0 auto;
     padding: 0 1rem;
+
+    @media (max-width: 1200px){
+      .member_txt {
+        max-width: 600px !important;
+      }
+    }
 
     @media (max-width: 980px){
       flex-direction: column;
@@ -87,9 +100,9 @@ export const MemberCont = styled.section`
 
       margin-right: 2.6rem;
       
-      > span {
+      /* > span {
         bottom: -50px;
-      }
+      } */
     }
     
     .member_txt {
@@ -111,6 +124,18 @@ export const MemberCont = styled.section`
         color: ${({theme}) => theme.white};
         line-height: 20px;
         font-size: 1rem;
+
+        @media screen and (max-width: 700px){
+          li {
+            margin-bottom: 10px;
+            padding-top: 10px;
+            border-top 1px solid rgba(233, 233, 233, .7);
+
+            &:first-child {
+              border-top: none;
+            }
+          }
+        }
       }
     }
   }
