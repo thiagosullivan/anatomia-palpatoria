@@ -15,6 +15,15 @@ export const FooterTop = styled.div`
   padding: 2.8rem 0;
   text-align: center;
 
+  a {
+    color: ${({ theme }) => theme.white};
+    transition: all 150ms ease-in;
+
+    &:hover {
+      color: ${({ theme }) => theme.fourth};
+    }
+  }
+
   @media (max-width: 980px){
     display: flex;
     flex-direction: column;
@@ -25,7 +34,7 @@ export const FooterTop = styled.div`
       padding: .5rem;
       width: fit-content;
       text-align: center;
-      margin: 0 auto;
+      margin: 0 auto;      
 
       &:after {
         display: none;
