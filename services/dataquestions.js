@@ -5,34 +5,34 @@ export const Data = [
   },
   {
     question: 'Posso pagar o valor integral do curso?',
-    answer: 'Lorem ipsum dolor sit amet.',
+    answer: 'Para que você tenha maior liberdade no tempo de estudo e não fique pressionado(a) a uma data de conclusão, o curso foi criado com o sistema de assinaturas. Assim, você pagará de forma mensal apenas até a data de conclusão. Ou seja, o quanto antes você concluir o curso, antes você termina o seu pagamento.',
   },
   {
     question: 'Existe algum desconto em um plano anual?',
-    answer: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur mattis quis neque vel volutpat. Pellentesque et libero at velit malesuada porttitor fermentum eget nulla. Nam.',
+    answer: 'Ainda não temos um plano anual, apenas mensal. Mas se existir uma demanda organizamos um novo projeto.',
   },
   {
     question: 'Em qual plataforma eu terei acesso ao material?',
-    answer: 'Aliquam porttitor leo congue mattis ultricies. Donec ultricies, enim nec vulputate pulvinar, lorem tellus placerat diam, a mollis erat justo eu turpis. Aliquam placerat erat ultricies tortor scelerisque, in luctus nisl consequat. Quisque ut velit.',
+    answer: 'O curso está hospedado na plataforma Hotmart. Você receberá em seu e-mail o link para acesso ao curso. Se você já tem cadastro na Hotmart e usou o mesmo e-mail para compra então você usará o mesmo login e senha para acesso.',
   },
   {
     question: 'Eu continuo tendo acesso ao material mesmo depois do cancelamento da assinatura?',
-    answer: 'Ut eleifend, justo eget ornare luctus, orci erat eleifend lorem, non efficitur mauris nisl ac lorem. Phasellus iaculis vestibulum metus, non tempor ante efficitur vel. Curabitur tristique nulla a lorem.',
+    answer: 'Não. O cancelamento exclui automaticamente o acesso ao curso. Por ser um valor bastante acessível, sugiro que mesmo após o término do curso você mantenha sua assinatura ativa por no mínimo 2 meses. Assim você terá acesso em 100% do curso para consultas, tirar dúvida ou assistir novas aulas gratuitas com atualização de conteúdos.',
   },
   {
     question: 'Quais são as formas de pagamentos do curso?',
-    answer: 'Ut semper condimentum viverra. Pellentesque condimentum nibh a auctor tempus. Aenean ut sapien augue. Cras lobortis massa vitae aliquet accumsan. Vivamus maximus pellentesque sapien, at viverra enim scelerisque quis. Proin id mattis enim. Integer at felis elit. Phasellus sed tellus justo. Maecenas justo tellus, condimentum.',
+    answer: 'O pagamento é feito exclusivamente por meio de cartão de crédito.',
   },
   {
     question: 'Qual o valor da taxa de cancelamento?',
-    answer: 'Etiam venenatis tortor a ipsum tristique, et ultricies tortor aliquet. Donec egestas consequat justo, ac gravida nibh congue vitae. Curabitur vel facilisis est. Nullam nec dui sollicitudin, tincidunt massa et, iaculis tortor. Cras feugiat, est ac volutpat imperdiet, ante lacus pretium sem, eu sodales felis turpis quis ex. Phasellus hendrerit.',
+    answer: 'Não é cobrada nenhuma taxa de cancelamento. Você pode cancelar no momento que quiser. Mas lembre-se, ao cancelar sua compra será cancelado também o acesso ao curso. Este é um padrão no sistema de assinaturas.',
   },
   {
     question: 'Qual a duração do curso?',
-    answer: 'Sed ipsum mi, ultricies id dignissim nec, luctus a orci. Quisque scelerisque arcu sed justo tempus molestie. Vivamus tempus tincidunt porta. Nunc.',
+    answer: 'O bacana do formato de assinatura é que o curso terá a duração que você levar para concluir. Ou seja, você não tem pressão de tempo para concluir, o ritmo é o seu.',
   },
   {
     question: 'Haverá algum tipo de suporte/consultoria com o professor do curso?',
-    answer: 'Pellentesque dolor sem, cursus sed sagittis vel, suscipit sed leo. Duis aliquam.',
+    answer: 'Sim. Teremos nossos canais extras de comunicação. Além dos comentários nos vídeos das aulas, teremos: canal exclusivo no Telegram e comunidade privada no Facebook, nos quais além das considerações, todos os alunos poderão levar dúvidas e responder dúvidas dos colegas.',
   }
 ]
