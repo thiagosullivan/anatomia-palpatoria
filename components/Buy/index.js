@@ -14,8 +14,8 @@ function Buy() {
         <span> VOCÊ </span>
         decide!
       </h2>
-      <p>Basta clicar no botão e adquirir o curso para ter acesso <span>agora</span> e começar imediatamente. O preço atual é por um tempo limitado, aproveite agora para se juntar à nós.</p>
-      <p>Eu estou te esperando para compartilhar com você um <span>curso extraordinário</span>. Adquira agora e faça a sua CARREIRA DECOLAR. Saia de onde está e alcance voos cada vez mais altos.</p>
+      <p>Basta clicar no botão, adquirir o curso, e ter acesso <span>agora</span>! O preço atual é por um tempo limitado, aproveite e junte-se a nós.</p>
+      <p>A oportunidade está em suas mãos, basta dar o próximo passo e buscar o seu espaço junto aos profissionais mais preparados do país.</p>
 
       <div className='buycard_cont' id="buy">
         <p>Adquira agora!</p>

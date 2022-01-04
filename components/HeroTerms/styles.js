@@ -80,9 +80,16 @@ export const HeroContainer = styled.section`
       }
 
       a {
+        color: ${({theme}) => theme.white};
+        display: flex;
+        align-items: center;
+
+        svg {
+          margin-right: 10px;
+        }
+
         &:first-child {
           background-color: ${({theme}) => theme.first};
-          color: ${({theme}) => theme.white};
           padding: 0.9rem;
           border-radius: 5px;
           box-shadow: 0 4px 4px rgba(0,0,0,.25);
@@ -95,7 +102,6 @@ export const HeroContainer = styled.section`
         }
 
         &:last-child {
-          color: ${({theme}) => theme.grey};
           font-size: 1.2rem;
           font-weight: 700;
         }
