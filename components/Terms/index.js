@@ -1,4 +1,3 @@
-import Link from 'next/link';
 import React from 'react';
 
 function Terms() {
@@ -7,7 +6,7 @@ function Terms() {
       <div className='terms'>
         <h2 id="politica">Política Privacidade</h2>
 
-        <p>A sua privacidade é importante para nós. É política do Anatomia Palpatória Avançada respeitar a sua privacidade em relação a qualquer informação sua que possamos coletar no site <Link href='https://anatomiapalpatoriaavancada.com.br'>Anatomia Palpatória Avançada</Link>, e outros sites que possuímos e operamos.</p>
+        <p>A sua privacidade é importante para nós. É política do Anatomia Palpatória Avançada respeitar a sua privacidade em relação a qualquer informação sua que possamos coletar no site <strong>Anatomia Palpatória Avançada</strong>, e outros sites que possuímos e operamos.</p>
         <p>Solicitamos informações pessoais apenas quando realmente precisamos delas para lhe fornecer um serviço. Fazemo-lo por meios justos e legais, com o seu conhecimento e consentimento. Também informamos por que estamos coletando e como será usado.</p>
         <p>Apenas retemos as informações coletadas pelo tempo necessário para fornecer o serviço solicitado. Quando armazenamos dados, protegemos dentro de meios comercialmente aceitáveis ​​para evitar perdas e roubos, bem como acesso, divulgação, cópia, uso ou modificação não autorizados.</p>
         <p>Não compartilhamos informações de identificação pessoal publicamente ou com terceiros, exceto quando exigido por lei.</p>
@@ -24,7 +23,7 @@ function Terms() {
         <p>Utilizamos cookies por vários motivos, detalhados abaixo. Infelizmente, na maioria dos casos, não existem opções padrão do setor para desativar os cookies sem desativar completamente a funcionalidade e os recursos que eles adicionam a este site. É recomendável que você deixe todos os cookies se não tiver certeza se precisa ou não deles, caso sejam usados ​​para fornecer um serviço que você usa.</p>
 
         <h3>Desativar cookies</h3>
-        <p>Você pode impedir a configuração de cookies ajustando as configurações do seu navegador (consulte a Ajuda do navegador para saber como fazer isso).Esteja ciente de que a desativação de cookies afetará a funcionalidade deste e de muitos outros sites que                        você visita. A desativação de cookies geralmente resultará na desativação de determinadas funcionalidades e recursos deste site. Portanto, é recomendável que você não desative os cookies.</p>
+        <p>Você pode impedir a configuração de cookies ajustando as configurações do seu navegador &#x28;consulte a Ajuda do navegador para saber como fazer isso&#x29;.Esteja ciente de que a desativação de cookies afetará a funcionalidade deste e de muitos outros sites que                        você visita. A desativação de cookies geralmente resultará na desativação de determinadas funcionalidades e recursos deste site. Portanto, é recomendável que você não desative os cookies.</p>
 
         <h3>Cookies que definimos</h3>
         <ul>
