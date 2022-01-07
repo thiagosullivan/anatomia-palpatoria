@@ -68,9 +68,26 @@ export const VantagensCard = styled.section`
     margin-bottom: 1rem;
   }
 
+  svg {
+    color: ${({theme}) => theme.white};
+    width: 100px;
+    height: 100px;
+    
+    path {
+      stroke: ${({theme}) => theme.white};
+    }
+  }
+
   p {
     color: ${({theme}) => theme.white};
     text-align: justify;
+    line-height: 20px;
+  }
+
+  ul {
+    color: ${({theme}) => theme.white};
+    line-height: 20px;
+    list-style: inside;
   }
 `;
 

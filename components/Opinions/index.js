@@ -2,6 +2,8 @@ import React from 'react'
 import Image from 'next/image';
 
 import { OpinionCard, OpnionsContainer, VantagensCard } from './styles'
+import {HiOutlineDesktopComputer} from 'react-icons/hi'
+import {GrCertificate} from 'react-icons/gr'
 
 import HandIcon from '../../assets/hand.png';
 import HeartIcon from '../../assets/heart.png';
@@ -18,21 +20,23 @@ function Opinions() {
         <div className='vantagens_cards_cont'>
           <VantagensCard>
             <div className='vantagem_card_icon'>
-              <Image src={MedkitIcon} alt='Vantagem 1' />
+              <HiOutlineDesktopComputer />
             </div>
-            <p>Vivamus ultricies vulputate ante quis feugiat. Nunc imperdiet leo a quam accumsan bibendum. Ut sed condimentum mauris. Suspendisse lorem erat, sollicitudin at nibh et, condimentum rutrum magna. Ut feugiat, arcu sed dignissim condimentum, ex lorem sagittis quam, aliquet rhoncus risus dui a metus. Etiam convallis ipsum id luctus congue. Vestibulum id justo ut augue porttitor pellentesque. Curabitur mollis venenatis lorem, vel semper lorem. Phasellus id dapibus dui. Integer tincidunt interdum erat sed dignissim. Morbi scelerisque blandit odio, eget vehicula quam dictum et.</p>
+            <ul>
+              <li>Estude onde e quando quiser;</li>
+              <li>Reveja aulas sempre que necessário;</li>
+              <li>Curso completo com aulas em vídeo;</li>
+              <li>Know-How de profissionais renomados;</li>
+              <li>Conteúdo avançado;</li>
+              <li>Certificado de participação;</li>
+              <li>Demonstração prática de técnicas;</li>
+            </ul>
           </VantagensCard>
           <VantagensCard>
             <div className='vantagem_card_icon'>
-              <Image src={HandIcon} alt='Vantagem 2' />
+              <GrCertificate />
             </div>
-            <p>Ut consectetur massa nec nisi tincidunt mollis. Proin scelerisque auctor velit a bibendum. Quisque fermentum aliquam dolor, non tristique nibh porttitor ac. Proin est odio, varius eget justo vitae, efficitur auctor dolor. Etiam laoreet dictum nunc, id lacinia eros molestie a. Quisque non lorem libero. Suspendisse luctus sem eu egestas sollicitudin. Vivamus porttitor, eros auctor mattis aliquet, nisl massa tempus dui, quis rutrum nulla ex rhoncus purus.</p>
-          </VantagensCard>
-          <VantagensCard>
-            <div className='vantagem_card_icon'>
-              <Image src={HeartIcon} alt='Vantagem 3' />
-            </div>
-            <p>Maecenas ut lectus eu sem ultrices porttitor nec sit amet justo. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vivamus porttitor eros a elit commodo facilisis. Morbi auctor scelerisque felis ac porttitor. Integer vitae magna quis enim tempor condimentum. Morbi tempus, risus a maximus ornare, diam tellus fringilla leo, ut varius ex nisi nec sapien. In et ullamcorper nunc.</p>
+            <p>Tenha em um único curso, toda informação necessária para aprimorar as suas técnicas e entregar um melhor trabalho para os seus pacientes.</p>
           </VantagensCard>
         </div>
         <div className='opinioes_cards_container'>
