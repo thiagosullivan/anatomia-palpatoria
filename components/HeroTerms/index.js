@@ -17,8 +17,10 @@ function HeroTerms() {
         <p>Curso completo com vídeo-aulas personalizadas e exclusivas para o curso online.</p>
         <div className='txt_hero_bottom'>
           <Link href="/">
-            <HiOutlineArrowNarrowLeft />
-            <span>Voltar para a Home</span>
+            <a>
+              <HiOutlineArrowNarrowLeft />
+              <span>Voltar para a Home</span>
+            </a>
           </Link>
         </div>
       </div>
