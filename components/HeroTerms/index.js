@@ -1,5 +1,6 @@
 import React from 'react'
 import Image from 'next/image';
+import Link from 'next/link';
 
 import { HeroContainer } from './styles';
 import AnatPalpLogo from '../../assets/anatomia-palpatoria-avancada-logo.png';
@@ -15,10 +16,10 @@ function HeroTerms() {
         <h1>Anatomia Palpatória Avançada</h1>
         <p>Curso completo com vídeo-aulas personalizadas e exclusivas para o curso online.</p>
         <div className='txt_hero_bottom'>
-          <a href="/">
+          <Link href="/">
             <HiOutlineArrowNarrowLeft />
             <span>Voltar para a Home</span>
-          </a>
+          </Link>
         </div>
       </div>
     </HeroContainer>
