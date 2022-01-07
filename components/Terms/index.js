@@ -18,7 +18,7 @@ function Terms() {
         <h3>Política de Cookies Anatomia Palpatória Avançada</h3>
 
         <h3>O que são cookies?</h3>
-        <p>Como é prática comum em quase todos os sites profissionais, este site usa cookies, que são pequenos arquivos baixados no seu computador, para melhorar sua experiência. Esta página descreve quais informações eles coletam, como as usamos e por que às vezes precisamos armazenar esses cookies. Também compartilharemos como você pode impedir que esses cookies sejam armazenados, no entanto, isso pode fazer o downgrade ou 'quebrar' certos elementos da funcionalidade do site.</p>
+        <p>Como é prática comum em quase todos os sites profissionais, este site usa cookies, que são pequenos arquivos baixados no seu computador, para melhorar sua experiência. Esta página descreve quais informações eles coletam, como as usamos e por que às vezes precisamos armazenar esses cookies. Também compartilharemos como você pode impedir que esses cookies sejam armazenados, no entanto, isso pode fazer o downgrade ou &apos;quebrar&apos; certos elementos da funcionalidade do site.</p>
 
         <h3>Como usamos os cookies?</h3>
         <p>Utilizamos cookies por vários motivos, detalhados abaixo. Infelizmente, na maioria dos casos, não existem opções padrão do setor para desativar os cookies sem desativar completamente a funcionalidade e os recursos que eles adicionam a este site. É recomendável que você deixe todos os cookies se não tiver certeza se precisa ou não deles, caso sejam usados ​​para fornecer um serviço que você usa.</p>
@@ -72,11 +72,11 @@ function Terms() {
         
         <p>usar os materiais para qualquer finalidade comercial ou para exibição pública (comercial ou não comercial);
         tentar descompilar ou fazer engenharia reversa de qualquer software contido no site Anatomia Palpatória Avançada;
-        remover quaisquer direitos autorais ou outras notações de propriedade dos materiais; ou transferir os materiais para outra pessoa ou 'espelhe' os materiais em qualquer outro servidor.<br/>
+        remover quaisquer direitos autorais ou outras notações de propriedade dos materiais; ou transferir os materiais para outra pessoa ou &apos;espelhe&apos; os materiais em qualquer outro servidor.<br/>
         Esta licença será automaticamente rescindida se você violar alguma dessas restrições e poderá ser rescindida por Anatomia Palpatória Avançada a qualquer momento. Ao encerrar a visualização desses materiais ou após o término desta licença, você deve apagar todos os materiais baixados em sua posse, seja em formato eletrónico ou impresso.</p>
 
         <h3>3. Isenção de responsabilidade</h3>
-        <p>Os materiais no site da Anatomia Palpatória Avançada são fornecidos 'como estão'. Anatomia Palpatória Avançada não oferece garantias, expressas ou implícitas, e, por este meio, isenta e nega todas as outras garantias, incluindo, sem limitação, garantias implícitas ou condições de comercialização, adequação a um fim específico ou não violação de propriedade intelectual ou outra violação de direitos.<br/>
+        <p>Os materiais no site da Anatomia Palpatória Avançada são fornecidos &apos;como estão&apos;. Anatomia Palpatória Avançada não oferece garantias, expressas ou implícitas, e, por este meio, isenta e nega todas as outras garantias, incluindo, sem limitação, garantias implícitas ou condições de comercialização, adequação a um fim específico ou não violação de propriedade intelectual ou outra violação de direitos.<br/>
         Além disso, o Anatomia Palpatória Avançada não garante ou faz qualquer representação relativa à precisão, aos resultados prováveis ​​ou à confiabilidade do uso dos materiais em seu site ou de outra forma relacionado a esses materiais ou em sites vinculados a este site.</p>
         
         <h3>4. Limitações</h3>
