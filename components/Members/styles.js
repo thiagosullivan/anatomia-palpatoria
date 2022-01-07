@@ -32,7 +32,7 @@ export const MemberCont = styled.section`
         }
       }
 
-      .member_txt {
+      .member_txt {        
 
         h3 {
           color: ${({theme}) => theme.fourth};
@@ -81,7 +81,7 @@ export const MemberCont = styled.section`
       }
 
       .member_txt {
-        max-width: unset !important;
+        max-width: unset !important;        
 
         h3 {
           text-align: center;
@@ -121,7 +121,8 @@ export const MemberCont = styled.section`
     
     .member_txt {
       max-width: 715px;
-
+      margin-bottom: auto;
+      
       h3 {
         color: ${({theme}) => theme.first};
         font-size: 4rem;
