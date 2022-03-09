@@ -76,9 +76,29 @@ export const BuyCard = styled.div`
     font-size: 2.2rem;
     font-weight: 800;
     margin-bottom: 1.5rem;
+    text-transform: uppercase;
 
     @media (max-width: 720px){
       font-size: 1.5rem;
+    }
+  }
+
+  p.under_text {
+    font-size: 2rem;
+    color: #ffffff;
+    margin-top: 3rem;
+  }
+
+  .old_price {
+    color: #e9e9e9;
+    text-align: center;
+    font-size: 2.8rem;
+    margin: 2.5rem 0 1rem;
+    text-decoration: line-through;
+
+    @media (max-width: 720px){
+      font-size: 2rem;
+      margin-bottom: .5rem;
     }
   }
 
@@ -87,6 +107,7 @@ export const BuyCard = styled.div`
     font-size: 6.25rem;
     display: flex;
     justify-content: center;
+    align-items: flex-end;
     font-weight: 700;
     margin-bottom: 1.5rem;
 
@@ -94,16 +115,45 @@ export const BuyCard = styled.div`
       font-size: 4rem;
     }
 
+    @media (max-width: 340px){
+      font-size: 3rem;
+      align-items: center;
+      margin-top: 1rem;
+    }
+
+    .por {
+      font-size: 3rem;
+      font-weight: bold;
+      margin-bottom: 0.8rem;
+      margin-right: 1.5rem;
+
+      @media (max-width: 720px){
+        font-size: 2rem;
+      }
+
+      @media (max-width: 340px){
+        margin-right: 0.5rem;        
+      }
+    }
+
     span {
       font-weight: 400;
       font-size: 3rem;
       margin-right: 0.6rem;
+      margin-bottom: 0.8rem;
 
       @media (max-width: 720px){
         font-size: 1.5rem;
-      
+
         &:last-child {
-          margin-top: 2rem !important;
+          /* margin-top: 2rem !important; */
+          /* margin-left: 0.6rem; */
+        }
+      }
+
+      @media (max-width: 540px){
+        &:last-child {
+          margin-top: 0;
           margin-left: 0.6rem;
         }
       }
@@ -111,9 +161,15 @@ export const BuyCard = styled.div`
       &:last-child {
         margin-top: 3rem;
         margin-left: 0.6rem;
+
+        @media (max-width: 340px){
+          margin-top: 0;
+        }
       }
     }
   }
+
+  
 
   .buycard_txt {
     margin-bottom: 3.43rem;

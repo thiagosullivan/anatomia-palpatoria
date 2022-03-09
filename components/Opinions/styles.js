@@ -34,7 +34,7 @@ export const OpnionsContainer = styled.section`
 
     .vantagens_cards_cont {
       display: flex;
-      justify-content: space-around;
+      justify-content: space-evenly;
 
     }
 

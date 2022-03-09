@@ -21,13 +21,18 @@ function Buy() {
         <p>Adquira agora!</p>
 
         <BuyCard>
-          <h4>Assinatura<br/> Mensal</h4>
-          <div className='buycard_price'>
-            <span>R$</span>
-            99,
-            <span>90</span>
+          <h4>Oferta de<br/> lançamento!</h4>
+          <div className='old_price'>
+            de R$ <span>520,</span>00
           </div>
-          <div className='buycard_txt'>
+          <div className='buycard_price'>
+            <span className='por'>Por</span>
+            <span>R$</span>
+            390,
+            <span>00</span>
+          </div>
+          <p className='under_text'>Ganhe 25% de Desconto e Economize R$ 130,00</p>
+          {/* <div className='buycard_txt'>
             <ul>
               <li>
                 <span><AiOutlineCheckCircle /></span>
@@ -62,9 +67,15 @@ function Buy() {
                 Geração de cadastros;
               </li>
             </ul>
-          </div>
+          </div> */}
 
-          <a href="#">Assine Agora</a>
+          <a
+            href="https://pay.hotmart.com/K67620803O"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            Assine Agora
+          </a>
 
           <span className='buycard_warning'>*O preço nunca será alterado enquanto seu plano estiver ativo</span>
         </BuyCard>
