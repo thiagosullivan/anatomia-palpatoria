@@ -225,6 +225,7 @@ export const BuyCard = styled.div`
     align-items: center;
     justify-content: center;
     box-shadow: 0 2px 7px rgba(0,0,0,.5);
+    text-transform: uppercase;
 
     @media (max-width: 720px){
       font-size: 1.2rem;

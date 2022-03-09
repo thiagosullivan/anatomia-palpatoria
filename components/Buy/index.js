@@ -74,7 +74,7 @@ function Buy() {
             target="_blank"
             rel="noopener noreferrer"
           >
-            Assine Agora
+            Comprar Agora
           </a>
 
           <span className='buycard_warning'>*O preço nunca será alterado enquanto seu plano estiver ativo</span>
