@@ -98,14 +98,14 @@ export const OpinionCard = styled.section`
   background: ${({theme}) => theme.thirdGradient};
   border-radius: 5px;
   box-shadow: 0 4px 4px rgba(0,0,0,.25);
-  padding: 3.3rem;
+  padding: 2rem 3.3rem;
   display: flex;
   justify-content: center;
   align-items: center;
 
   @media (max-width: 700px){
     flex-direction: column;
-    padding: 2rem;
+    padding: 1.5rem 2rem;
 
     .opinion_img {
       margin-right: 0 !important;

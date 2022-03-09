@@ -47,11 +47,11 @@ function Opinions() {
               <Image src={DepoOne} width={200} height={200} alt='Depoimento 1' />
             </div>
             <div className='opinion_card_txt'>
-              <h4>Charlize THeron</h4>
-              <p>Maecenas ut lectus eu sem ultrices porttitor nec sit amet justo. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vivamus porttitor eros a elit commodo facilisis. Morbi auctor scelerisque felis ac porttitor. Integer vitae magna quis enim tempor condimentum. Morbi tempus, risus a maximus ornare, diam tellus fringilla leo, ut varius ex nisi nec sapien. In et ullamcorper nunc.</p>
+              <h4>Rodrigo Deller</h4>
+              <p>O professor Rodrigo Rabbottini é um excelente professor e  profissional , tem uma didática muito boa que facilita o aprendizado, faz correlações clinicas que ajudam muito no raciocínio do dia a dia do consultório. Curso excelente, com toda certeza recomendo!</p>
               <div className='opinion_card_txt_bottom'>
-                <span>Social Media</span>
-                <span>Nextflix</span>
+                <span>Aluno</span>
+                {/* <span>Nextflix</span> */}
               </div>
             </div>
           </OpinionCard>
@@ -60,11 +60,14 @@ function Opinions() {
               <Image src={DepoTwo} width={200} height={200} alt='Depoimento 2' />
             </div>
             <div className='opinion_card_txt'>
-              <h4>Terry Crews</h4>
-              <p>Integer finibus arcu ac metus elementum tincidunt. In imperdiet, ex vitae convallis blandit, ex ipsum bibendum diam, a iaculis risus libero ut risus. Nam vehicula eget orci ac luctus. Vivamus commodo leo venenatis, auctor mauris consectetur, ullamcorper libero.</p>
+              <h4>Flávia Zardim</h4>
+              <p>Conheci o professor Rodrigo Rabbottini em 2018 na minha formação de Microfisioterapia e me identifiquei muito com a didática e postura dele em sala de aula!<br/>
+              É um profissional que possui grande domínio do conteúdo ministrado, fazendo uso de linguagem esclarecedora, além de possuir vasto conhecimento em Anatomia, Fisiologia e na parte Clínica, sempre transmitindo muita confiança aos alunos, além de somar muito conhecimento em nosso dia-a-dia.<br/>
+              Trazemos para nosso atendimento uma base do que aprendemos na faculdade, porém, na prática percebemos uma lacuna ou algum ponto em defasagem, e este curso de Anatomia Palpatória será de grande valia para nosso crescimento profissional, agregando mais conhecimento e mais segurança diante dos nossos pacientes!<br/>
+              Com certeza um investimento de grande importância para nós!!!</p>
               <div className='opinion_card_txt_bottom'>
-                <span>Diretor de Marketing</span>
-                <span>DC Comics</span>
+                <span>Aluna</span>
+                {/* <span>DC Comics</span> */}
               </div>
             </div>
           </OpinionCard>
@@ -77,7 +80,7 @@ function Opinions() {
               <p>Vestibulum ut urna pellentesque, gravida enim sed, ultrices neque. Aenean fermentum sodales nisl egestas tincidunt. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean tincidunt lacinia felis, dignissim luctus sapien dignissim sit amet. Vestibulum pharetra urna eget dolor dictum, ut ornare dolor gravida. Nulla tincidunt, libero eu aliquam consectetur, justo tellus luctus turpis, sit amet condimentum leo felis eu odio. Pellentesque laoreet nisi a sem lacinia, finibus blandit mauris feugiat.</p>
               <div className='opinion_card_txt_bottom'>
                 <span>Consultoria</span>
-                <span>Marvel Studios</span>
+                {/* <span>Marvel Studios</span> */}
               </div>
             </div>
           </OpinionCard>
