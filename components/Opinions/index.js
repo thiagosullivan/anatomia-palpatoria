@@ -76,10 +76,11 @@ function Opinions() {
               <Image src={DepoThree} width={200} height={200} alt='Depoimento 3' />
             </div>
             <div className='opinion_card_txt'>
-              <h4>Scarlett Johansson</h4>
-              <p>Vestibulum ut urna pellentesque, gravida enim sed, ultrices neque. Aenean fermentum sodales nisl egestas tincidunt. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean tincidunt lacinia felis, dignissim luctus sapien dignissim sit amet. Vestibulum pharetra urna eget dolor dictum, ut ornare dolor gravida. Nulla tincidunt, libero eu aliquam consectetur, justo tellus luctus turpis, sit amet condimentum leo felis eu odio. Pellentesque laoreet nisi a sem lacinia, finibus blandit mauris feugiat.</p>
+              <h4>Daniele Soares</h4>
+              <p>O Rodrigo R. Rabbottini é daqueles professores essenciais para a vida de qualquer aluno e qualquer profissional. Tem uma didática excelente, uma habilidade para explicar e ensinar com objetividade e clareza, mas de forma profunda.<br/>
+              Ele tem compromisso com o aprendizado do aluno e está sempre disponível para nos auxiliar no que for preciso: tanto no âmbito técnico quanto profissional.</p>
               <div className='opinion_card_txt_bottom'>
-                <span>Consultoria</span>
+                <span>Aluna</span>
                 {/* <span>Marvel Studios</span> */}
               </div>
             </div>
