@@ -12,7 +12,7 @@ export const FooterContainer = styled.footer`
 `
 export const FooterTop = styled.div`
   background: ${({ theme }) => theme.third};
-  padding: 2.8rem 0;
+  padding-top: 2.8rem;
   text-align: center;
 
   a {
@@ -22,6 +22,12 @@ export const FooterTop = styled.div`
     &:hover {
       color: ${({ theme }) => theme.fourth};
     }
+  }
+
+  p {
+    font-size: 14px;
+    padding: 2rem 1rem 1.5rem;
+    text-align: justify;
   }
 
   @media (max-width: 980px){
