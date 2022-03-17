@@ -11,6 +11,7 @@ import MedkitIcon from '../../assets/medkit.png';
 import DepoOne from '../../assets/depo-1.png';
 import DepoTwo from '../../assets/depo-2.png';
 import DepoThree from '../../assets/depo-3.png';
+import DepoFour from '../../assets/depo-4.png';
 
 function Opinions() {
   return (
@@ -81,7 +82,18 @@ function Opinions() {
               Ele tem compromisso com o aprendizado do aluno e está sempre disponível para nos auxiliar no que for preciso: tanto no âmbito técnico quanto profissional.</p>
               <div className='opinion_card_txt_bottom'>
                 <span>Aluna</span>
-                {/* <span>Marvel Studios</span> */}
+              </div>
+            </div>
+          </OpinionCard>
+          <OpinionCard>
+            <div className='opinion_img'>
+              <Image src={DepoFour} width={200} height={200} alt='Depoimento 3' />
+            </div>
+            <div className='opinion_card_txt'>
+              <h4>Thaís Tonetti Moroso</h4>
+              <p>O que falar do Professor Rodrigo Rabottine! Excelente pessoa e profissional, possui uma coerência e sabedoria fantástica! Com sua didática maravilhosa consegue transmitir as informações de forma clara e precisa!!!! O curso de anatomia palpatória é de extrema importância para formação de qualquer profissional que atua na área de terapia manual, e também qualquer área da fisioterapia!!! Super recomendo!!!!!</p>
+              <div className='opinion_card_txt_bottom'>
+                <span>Aluna</span>
               </div>
             </div>
           </OpinionCard>
