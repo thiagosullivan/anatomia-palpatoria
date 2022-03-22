@@ -12,6 +12,9 @@ import DepoOne from '../../assets/depo-1.png';
 import DepoTwo from '../../assets/depo-2.png';
 import DepoThree from '../../assets/depo-3.png';
 import DepoFour from '../../assets/depo-4.png';
+import DepoFive from '../../assets/depo-5.png';
+import DepoSix from '../../assets/depo-6.png';
+import DepoSeven from '../../assets/depo-7.png';
 
 function Opinions() {
   return (
@@ -87,11 +90,47 @@ function Opinions() {
           </OpinionCard>
           <OpinionCard>
             <div className='opinion_img'>
-              <Image src={DepoFour} width={200} height={200} alt='Depoimento 3' />
+              <Image src={DepoFour} width={200} height={200} alt='Depoimento 4' />
             </div>
             <div className='opinion_card_txt'>
               <h4>Thaís Tonetti Moroso</h4>
               <p>O que falar do Professor Rodrigo Rabottine! Excelente pessoa e profissional, possui uma coerência e sabedoria fantástica! Com sua didática maravilhosa consegue transmitir as informações de forma clara e precisa!!!! O curso de anatomia palpatória é de extrema importância para formação de qualquer profissional que atua na área de terapia manual, e também qualquer área da fisioterapia!!! Super recomendo!!!!!</p>
+              <div className='opinion_card_txt_bottom'>
+                <span>Aluna</span>
+              </div>
+            </div>
+          </OpinionCard>
+          <OpinionCard>
+            <div className='opinion_img'>
+              <Image src={DepoFive} width={200} height={200} alt='Depoimento 5' />
+            </div>
+            <div className='opinion_card_txt'>
+              <h4>Diaquiline Campos</h4>
+              <p>Através deste meu testemunho, venho deixar a minha contribuição desse professor inesquecível, que tive durante a minha vida acadêmica. O Professor Eduardo contribuiu muito com o seu conhecimento vasto e com a segurança em suas aulas ministradas. Através de uma didática simples e  objetiva alcançava a todos em sala de aula. Até hoje, recorro aos meus cadernos quando me surgem dúvidas, de algum caso específico, na sua especialidade de Traumato ortopedia. Recomendo todo e qualquer projeto que o professor Eduardo esteja envolvido, na certeza que serão conhecimentos proveitosos e de grande valor para o acadêmico e para a reciclagem do profissional.</p>
+              <div className='opinion_card_txt_bottom'>
+                <span>Aluna</span>
+              </div>
+            </div>
+          </OpinionCard>
+          <OpinionCard>
+            <div className='opinion_img'>
+              <Image src={DepoSix} width={200} height={200} alt='Depoimento 6' />
+            </div>
+            <div className='opinion_card_txt'>
+              <h4>Lucas Risto</h4>
+              <p>Sou fisioterapeuta esportivo, e vim como forma de gratidão disse o quanto os cursos do Prof Eduardo mudaram a minha vida. Eu fiz uma pós graduação desportiva e curso de raio X com correlações clínicas ministradas por ele. É um professor com uma excelente didática e consegue passar assuntos complexos de maneira simples e de fácil entendimento. Confio demais nos seus cursos e na sua didática. É um profissional que conquistou de tudo no ramo em que atua, já trabalhou com atletas internacionais. Tem um conhecimento vasto e sabe como passar da melhor forma. Mal vejo a hora de poder fazer o próximo curso com ele.</p>
+              <div className='opinion_card_txt_bottom'>
+                <span>Aluno / Fisioterapeuta esportivo</span>
+              </div>
+            </div>
+          </OpinionCard>
+          <OpinionCard>
+            <div className='opinion_img'>
+              <Image src={DepoSeven} width={200} height={200} alt='Depoimento 7' />
+            </div>
+            <div className='opinion_card_txt'>
+              <h4>Joana Pimenta </h4>
+              <p>O que dizer do Eduardo como professor? Excelente! Excelente como pessoa, simpático, engraçado, uma pessoa legal! Ele tenta e consegue passar para os seus alunos da melhor forma possível o conteúdo de maneira simples e de maneira inteligente, sempre com muito carinho e muito amor pelo o que faz. Torna muito fácil o aprendizado quando uma pessoa consegue transmitir conhecimento com essa paixão pelo o que faz.</p>
               <div className='opinion_card_txt_bottom'>
                 <span>Aluna</span>
               </div>

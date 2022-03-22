@@ -70,7 +70,7 @@ function Buy() {
           </div> */}
 
           <a
-            href="https://pay.hotmart.com/K67620803O"
+            href="https://pay.hotmart.com/K67620803O?off=mg4dxftd&checkoutMode=10"
             target="_blank"
             rel="noopener noreferrer"
           >
