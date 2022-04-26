@@ -1,7 +1,7 @@
 export const Data = [
   {
     question: 'A cobrança será mensal?',
-    answer: 'Não. O pagamento do curso é único e permite o seu acesso por 12 meses na plataforma.',
+    answer: 'Não. O pagamento do curso é único e permite o seu acesso por 24 meses na plataforma.',
   },
   {
     question: 'Em qual plataforma eu terei acesso ao material?',
